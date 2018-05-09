@@ -54,6 +54,7 @@ function transition(name) {
 		//location.reload();
 	}
 	if (name === "group-by-party") {
+		sound.play();
 		$("#initial-content").fadeOut(250);
 		$("#value-scale").fadeOut(250);
 		$("#view-donor-type").fadeOut(250);
